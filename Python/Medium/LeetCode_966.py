@@ -18,6 +18,7 @@
 # If the query has no matches in the wordlist, you should return the empty string.
 # Given some queries, return a list of words answer, where answer[i] is the correct word for query = queries[i].
 
+from typing import List
 
 class Solution:
     def spellChecker(self, wordlist: List[str], queries: List[str]) -> List[str]:
